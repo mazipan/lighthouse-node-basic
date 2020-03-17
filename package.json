@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse-node-basic",
+  "version": "1.0.0",
+  "description": "Running Lighthouse via Node.js and save the report in your file system",
+  "main": "index.js",
+  "scripts": {
+		"lh": "node ./index",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Irfan Maulana",
+	"license": "ISC",
+	"dependencies": {
+		"lighthouse": "",
+		"chrome-launcher": ""
+	}
+}
